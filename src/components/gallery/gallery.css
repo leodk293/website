@@ -1,0 +1,42 @@
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photos img{
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.gallery-container button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+    border: 1px solid rgb(11, 11, 195);
+    background-color: rgb(11, 11, 195);
+    padding: 20px;
+    width: auto;
+    border-radius: 30px;
+    color: #fff;
+
+}
+
+.gallery-container button img{
+    width: 30px;
+    object-fit: cover;
+}

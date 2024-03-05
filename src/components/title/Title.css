@@ -1,0 +1,14 @@
+.text-shape{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.title{
+    color: rgb(4, 4, 41);
+}
+
+.subTitle{
+    color: #111;
+}
